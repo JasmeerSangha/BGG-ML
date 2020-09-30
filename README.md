@@ -23,4 +23,30 @@ The neural network had an accuracy rating exceeding 90% and a loss of 0.26, sugg
 
 The logistic regression only showed an accuracy score of 50%. From the confusion matrix one can see it had trouble putting many games into the 'good' games category, with only 3 true positives. Clealry this is an area that can be improved though the weights of the mechanisms are interesing to examin none the less. 
 
+| Top 10 |
+|--------|
+|Hand Management| 
+|Card Drafting|
+|Worker Placement|
+|Variable Player Powers|
+|Set Collection|
+|Area Control / Area Influence|
+|Grid Movement|
+|Route/Network Building|
+|Dice Rolling|
+|Simultaneous Action Selection|
+
+|Bottom 10|
+|---------|
+|Take That|
+|Trick-taking|
+|Rock-Paper-Scissors|
+|Area-Impulse|
+|	Memory|
+|Pattern Recognition|
+|Crayon Rail System|
+|Singing|
+|Hex-and-Counter|
+|	Chit-Pull System|
+
 One can see the top of the list is highlighted by mechanisms such as card drafting, hand management, worker placement, and variable player powers: suggested strategic card and euro games are the current favourites for gamers. The bottom of the list is popuated by chit-pull system with hex-and-counter, also take-that, memory and rock-paper-scissors; suggesting older war games and simple mass market games are not for the masses. Despite a 50% accuracy rating it seems the logistic regression has  good handle on the current trends in board gaming but confused with the other mechanisms that may appear in both good and bad games.
